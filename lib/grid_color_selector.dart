@@ -75,6 +75,7 @@ class _GridColorSelectorState<TKey> extends State<GridColorSelector<TKey>> {
 
   Container _buildSelector() {
     return Container(
+      width: double.infinity,
       child: Wrap(
         direction: Axis.horizontal,
         crossAxisAlignment: WrapCrossAlignment.start,
